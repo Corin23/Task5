@@ -1,0 +1,40 @@
+why do we need to learn how VIM works?
+
+-improves productivity
+-available preinstalled on almost every linux distro/macOS
+-there are a lot of useful commands that are easy to remember (or not)
+-you dont need a mouse :) 
+-fast 
+-you can flex to your friends (if you have) that you know how to use vim
+
+
+
+Useful commands: 
+
+- d {number} {motion} - delete
+- r,R -replace 
+- c -change
+- ctrl + G - file details
+- gg/G -page navigation
+- /, ? -word search
+- u, U, ctrl+R -undo commands
+- % -matching parantheses search
+- s/old/new - substitute command (%s for the whole file or #,# to specify lines range, /g for global substitute /gc for prompt)
+- 0 -start of a line
+- :! external command execution
+- v -selects text to write
+- o, O - new line under or above the cursor
+- y,p - copy and paste
+- :help
+- b,w -move to the start/end of the next word
+- :set number - displays the line number (great with <number> G)
+- 
+
+
+cp /etc/services /home/myvnc/Desktop --- OR use mc
+cd /home/myvnc/Desktop/
+vim services
+-----------------
+
+
+
